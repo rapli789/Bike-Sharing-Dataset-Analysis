@@ -12,7 +12,7 @@ st.write("Analisis pola penggunaan sepeda berdasarkan waktu dan faktor lingkunga
 # =========================
 @st.cache_data
 def load_data():
-    df = pd.read_csv("dashboard/main_data.csv")
+    df = pd.read_csv("main_data.csv")
     return df
 
 df = load_data()
